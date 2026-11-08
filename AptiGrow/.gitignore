@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+venv/
+venv313/
+.env
+.env.*
+
+# Node dependencies
+node_modules/
+
+# Frontend build
+frontend/dist/
+
+# IDE
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
