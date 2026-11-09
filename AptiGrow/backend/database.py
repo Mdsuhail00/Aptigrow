@@ -7,7 +7,7 @@ from sqlalchemy.engine import URL
 DATABASE_URL = URL.create(
     drivername="mysql+pymysql",
     username=os.getenv("DB_USERNAME", "root"),
-    password=os.getenv("DB_PASSWORD", ""),
+    password=os.getenv("DB_PASSWORD", "Suhi00@123"),
     host=os.getenv("DB_HOST", "localhost"),
     database=os.getenv("DB_NAME", "aptigrow"),
     port=int(os.getenv("DB_PORT", "3306"))
